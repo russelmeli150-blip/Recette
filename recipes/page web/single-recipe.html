@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recette || Final</title>
+   
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+   
+    <link rel="stylesheet" href="./css/normalize.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="recettes simples" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> accueil </a>
+          <a href="about.html" class="nav-link"> à propos </a>
+          <a href="tags.html" class="nav-link"> catégories </a>
+          <a href="recipes.html" class="nav-link"> recettes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Pancakes à la banane</h2>
+            <p>
+              Chic décontracté, banh mi, Bushwick, chips de chou kale,
+              meggings. Selfies crédibles, style sartorial, pain nuage,
+              bouteille bleue, seitan. Attrape-rêves, mèches décoiffées,
+              bitters, gothique santé, vegan, venmo, art de rue, lyft,
+              chic décontracté, pitchfork, barbe. Vinaigre à boire, poke,
+              tbh, iPhone, livre de coloriage, polaroid, truffaut,
+              rampes décoiffées, carlin, fonds de confiance, impression
+              typographique. Portland four loko austin chicharrones,
+              café d'origine unique. Leggings, impression typographique,
+              occuper, café versé.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>temps de préparation</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>temps de cuisson</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>portions</h5>
+                <p>6 portions</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Catégories : <a href="tag-template.html">bœuf</a>
+              <a href="tag-template.html">petit-déjeuner</a>
+              <a href="tag-template.html">pancakes</a>
+              <a href="tag-template.html">nourriture</a>
+            </p>
+          </article>
+        </section>
+        
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+           
+            <div class="single-instruction">
+              <header>
+                <p>étape 1</p>
+                <div></div>
+              </header>
+              <p>
+                Je suis un bébé, moustache, tresse d'homme, petite moustache,
+                préparation en petite quantité, venmo, plantes succulentes,
+                Shoreditch.
+              </p>
+            </div>
+            
+            <div class="single-instruction">
+              <header>
+                <p>étape 2</p>
+                <div></div>
+              </header>
+              <p>
+                Pabst, pitchfork, vous n'en avez probablement jamais entendu
+                parler, seitan asymétrique, plantes succulentes, loup, banh mi,
+                chignon d'homme, selfies sur mesure, freegan, hexagone éthique.
+              </p>
+            </div>
+            
+            <div class="single-instruction">
+              <header>
+                <p>étape 3</p>
+                <div></div>
+              </header>
+              <p>
+                Polaroid, iPhone, bitters, chambray. Cornhole, swag, kombucha,
+                bois brut.
+              </p>
+            </div>
+           
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingrédients</h4>
+              <p class="single-ingredient">1 1/2 tasse de préparation sèche pour pancakes</p>
+              <p class="single-ingredient">1/2 tasse de graines de lin moulues</p>
+              <p class="single-ingredient">1 tasse de lait écrémé</p>
+            </div>
+            <div>
+              <h4>ustensiles</h4>
+              <p class="single-tool">Mixeur plongeant</p>
+              <p class="single-tool">Grande marmite épaisse avec couvercle</p>
+              <p class="single-tool">Cuillères doseuses</p>
+              <p class="single-tool">Tasses doseuses</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+   
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Créé par
+        <a href="">Meli Russel</a> 
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
